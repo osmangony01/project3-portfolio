@@ -69,12 +69,11 @@ nav li {
     margin-bottom: 30px;
 }
 
-main {
-    max-width: 1100px;
-    margin: 0 auto;
-}
+main {}
 
 .about {
+    margin: 0 auto;
+    max-width: 900px;
     margin-top: 150px;
     background: #FFF8F3;
     border-radius: 10px;
@@ -116,7 +115,8 @@ main {
 }
 
 .what-i-do {
-    margin-top: 150px;
+    margin: 150px 200px;
+
 }
 
 .section-title1 {
@@ -132,6 +132,7 @@ main {
 
 
 .skill-container {
+
     display: flex;
     gap: 24px;
 }
@@ -155,41 +156,93 @@ main {
     color: #757575;
 }
 
-.resume-section-title{
+.resume-section-title {
     margin: 150px;
     font-weight: 700;
     font-size: 35px;
     text-align: center;
-    margin-bottom:130px;
-
+    margin-bottom: 130px;
 }
 
-.resume-content{
+.resume {
+    margin: 0 200px 150px 200px;
+}
+
+.resume-content {
     display: flex;
     gap: 20px;
-    
 }
-.resume-subtitle{
+
+.resume-subtitle {
     margin-bottom: 30px;
 }
 
-.resume .title{
+.resume .title {
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.resume .subtitle{
+.resume .subtitle {
     color: #757575;
     margin-bottom: 20px;
-
 }
 
-.resume .resume-content p{
+.resume .resume-content p {
     padding-right: 70px;
     color: #757575;
 }
 
-.resume-btn{
-    
+.resume-btn {
     text-align: center;
+}
+
+.contact {
+    display: flex;
+    margin-top: 50px;
+    background: #FFF8F3;
+    padding: 150px 200px;
+    gap: 100px
+}
+
+.contact-title {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    margin-bottom: 30px;
+}
+
+.contact a {
+    margin-right: 20px;
+}
+
+.contact-btn {
+    height: 50px;
+    font-weight: 700;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 10px 30px;
+}
+
+.contact input {
+    width: 350px;
+    display: block;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    
+}
+
+.contact textarea {
+    border-radius: 5px;
+    border: 0;
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 5px 10px;
 }
